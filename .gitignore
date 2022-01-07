@@ -1,5 +1,8 @@
-/vendor/
-node_modules/
+/meta-api/vendor/
+/meta-api/node_modules/
+/meta-vue/node_modules/
+/meta-api/.idea
+/meta-vue/.idea
 npm-debug.log
 yarn-error.log
 
@@ -8,16 +11,16 @@ bootstrap/compiled.php
 app/storage/
 
 # Laravel 5 & Lumen specific
-public/storage
-public/hot
+/meta-api/public/storage
+/meta-api/public/hot
 
 # Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+/meta-api/public_html/storage
+/meta-api/public_html/hot
 
-storage/*.key
-.env
-Homestead.yaml
+/meta-api/storage/*.key
+/meta-api/.env
+/meta-api/Homestead.yaml
 Homestead.json
 /.vagrant
-.phpunit.result.cache
+/meta-api/.phpunit.result.cache
